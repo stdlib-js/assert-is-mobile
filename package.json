@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-mobile",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Boolean indicating if the current environment is a mobile device.",
   "license": "Apache-2.0",
   "author": {
