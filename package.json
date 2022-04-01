@@ -1,0 +1,34 @@
+{
+  "name": "@stdlib/assert-is-mobile",
+  "version": "0.0.0",
+  "description": "Boolean indicating if the current environment is a mobile device.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-mobile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "runtime",
+    "environment",
+    "browser",
+    "mobile",
+    "phone"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
