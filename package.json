@@ -14,9 +14,7 @@
     }
   ],
   "main": "./lib",
-  "browser": {
-    "./main.js": "./browser.js"
-  },
+  "browser": "./lib/browser.js",
   "directories": {
     "doc": "./docs",
     "example": "./examples",
@@ -38,11 +36,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/utils-constant-function": "^0.0.x"
+    "@stdlib/assert-is-browser": "^0.0.x",
+    "@stdlib/utils-constant-function": "^0.0.x",
+    "@stdlib/utils-global": "^0.0.x"
   },
   "devDependencies": {
-    "@stdlib/assert-is-browser": "^0.0.x",
-    "@stdlib/utils-global": "^0.0.x",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
