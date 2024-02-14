@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-mobile",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Boolean indicating if the current environment is a mobile device.",
   "license": "Apache-2.0",
   "author": {
@@ -36,9 +36,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-browser": "^0.1.1",
-    "@stdlib/utils-constant-function": "^0.1.1",
-    "@stdlib/utils-global": "^0.1.1"
+    "@stdlib/assert-is-browser": "^0.2.0",
+    "@stdlib/utils-constant-function": "^0.2.0",
+    "@stdlib/utils-global": "^0.2.0"
   },
   "devDependencies": {
     "proxyquire": "^2.0.0",
