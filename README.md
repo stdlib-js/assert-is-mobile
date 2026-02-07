@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import IS_MOBILE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-mobile@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-mobile/tags). For example,
+
+```javascript
 import IS_MOBILE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-mobile@v0.2.2-esm/index.mjs';
 ```
 
@@ -80,7 +85,7 @@ var bool = IS_MOBILE;
 <body>
 <script type="module">
 
-import IS_MOBILE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-mobile@v0.2.2-esm/index.mjs';
+import IS_MOBILE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-mobile@esm/index.mjs';
 
 console.log( IS_MOBILE );
 // => <boolean>
