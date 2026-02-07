@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_MOBILE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-mobile@deno/mod.js';
+import IS_MOBILE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-mobile@v0.2.2-deno/mod.js';
 ```
 
 #### IS_MOBILE
@@ -75,7 +75,7 @@ var bool = IS_MOBILE;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import IS_MOBILE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-mobile@deno/mod.js';
+import IS_MOBILE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-mobile@v0.2.2-deno/mod.js';
 
 console.log( IS_MOBILE );
 // => <boolean>
